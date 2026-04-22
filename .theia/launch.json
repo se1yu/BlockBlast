@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ECE319K_Lab9H",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "ECE319K_Lab9H",
+                "resourceId": "/ECE319K_Lab9H"
+            }
+        }
+    ]
+}

@@ -1,5 +1,8 @@
+"./ADC.o"
+"./ADC1.o"
 "./Clock.o"
 "./DAC5.o"
+"./JoyStick.o"
 "./LED.o"
 "./Lab9HMain.o"
 "./LaunchPad.o"

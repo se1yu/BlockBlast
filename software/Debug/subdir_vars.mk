@@ -23,9 +23,24 @@ C:/Users/kayos/Documents/MSPM0_ValvanoWare/inc/Timer.cpp
 CMD_SRCS += \
 ../mspm0g3507.cmd 
 
+C_SRCS += \
+../ADC.c \
+../ADC1.c \
+../Clock.c \
+../JoyStick.c 
+
+C_DEPS += \
+./ADC.d \
+./ADC1.d \
+./Clock.d \
+./JoyStick.d 
+
 OBJS += \
+./ADC.o \
+./ADC1.o \
 ./Clock.o \
 ./DAC5.o \
+./JoyStick.o \
 ./LED.o \
 ./Lab9HMain.o \
 ./LaunchPad.o \
@@ -54,8 +69,11 @@ CPP_DEPS += \
 ./Timer.d 
 
 OBJS__QUOTED += \
+"ADC.o" \
+"ADC1.o" \
 "Clock.o" \
 "DAC5.o" \
+"JoyStick.o" \
 "LED.o" \
 "Lab9HMain.o" \
 "LaunchPad.o" \
@@ -67,6 +85,12 @@ OBJS__QUOTED += \
 "Switch.o" \
 "TExaS.o" \
 "Timer.o" 
+
+C_DEPS__QUOTED += \
+"ADC.d" \
+"ADC1.d" \
+"Clock.d" \
+"JoyStick.d" 
 
 CPP_DEPS__QUOTED += \
 "Clock.d" \
@@ -82,6 +106,12 @@ CPP_DEPS__QUOTED += \
 "Switch.d" \
 "TExaS.d" \
 "Timer.d" 
+
+C_SRCS__QUOTED += \
+"../ADC.c" \
+"../ADC1.c" \
+"../Clock.c" \
+"../JoyStick.c" 
 
 CPP_SRCS__QUOTED += \
 "C:/Users/kayos/Documents/MSPM0_ValvanoWare/inc/Clock.cpp" \
