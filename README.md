@@ -2,6 +2,14 @@
 Using knowledge from ECE 319H at UT Austin (Intro to Embedded Systems) to build a custom video game console and to program Block Blast from scratch. 
 
 Block Blast is a puzzle game I implemented for a MSPM0G3507 microcontroller, displayed on a 128×160 ST7735 Liquid Crystal Display (LCD) screen. The player is presented with an 8×8 grid and a tray of three randomly selected blocks. Using a joystick and four external buttons, the player picks up blocks from the tray, moves them around the grid, and drops them into position. When an entire row or column of the grid becomes filled, it clears and the player earns points. The game ends when any remaining block in the tray has no valid position anywhere on the board. The game supports English and Spanish, tracks a persistent high score across rounds, and features four distinct sound effects triggered by gameplay events.
+# Images
+<img width="300" alt="img_1748" src="https://github.com/user-attachments/assets/5419ddf8-1ff4-4b4a-87b8-da2be4cd3b30" />
+<img width="300" alt="img_1751" src="https://github.com/user-attachments/assets/b68a333e-e006-4b04-a846-a5f4149e091e" />
+<img width="300" alt="img_1343" src="https://github.com/user-attachments/assets/698196d8-c800-4f63-ac83-2e0ea46bf643" />
+<img width="300" alt="img_1342" src="https://github.com/user-attachments/assets/314fa653-04ff-48c4-b15d-26e00f44e692" />
+<img width="300" alt="img_1750" src="https://github.com/user-attachments/assets/605a7a6c-8a94-4a3e-bcce-f4d14ef7b2ec" />
+
+--------
 
 # System Architecture
 There are two ISRs running concurrently:
