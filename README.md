@@ -1,4 +1,6 @@
-# BlockBlast
+# BlockBlast! 
+- Demo Link: https://youtu.be/8z5zvf6NJ1U?si=ciNaijVOC2jGjhIF
+
 Using knowledge from ECE 319H at UT Austin (Intro to Embedded Systems) to build a custom video game console and to program Block Blast from scratch. 
 
 Block Blast is a puzzle game I implemented for a MSPM0G3507 microcontroller, displayed on a 128×160 ST7735 Liquid Crystal Display (LCD) screen. The player is presented with an 8×8 grid and a tray of three randomly selected blocks. Using a joystick and four external buttons, the player picks up blocks from the tray, moves them around the grid, and drops them into position. When an entire row or column of the grid becomes filled, it clears and the player earns points. The game ends when any remaining block in the tray has no valid position anywhere on the board. The game supports English and Spanish, tracks a persistent high score across rounds, and features four distinct sound effects triggered by gameplay events.
